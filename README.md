@@ -24,7 +24,7 @@ rem - multiplicado pelo root
 
 
 ## Ícones personalizados
-Para usar um SVG personalizado, forneça seu URL no srcatributo para solicitar o arquivo SVG externo. O srcatributo funciona da mesma forma <code><img src="..."></code>que o URL deve ser acessível a partir da página da Web que está fazendo uma solicitação para a imagem. Além disso, o arquivo externo só pode ser válido svge não permite scripts ou eventos dentro do svgelemento.
+Para usar um SVG personalizado, forneça seu URL no srcatributo para solicitar o arquivo SVG externo. O srcatributo funciona da mesma forma <source><img src="..."></source>que o URL deve ser acessível a partir da página da Web que está fazendo uma solicitação para a imagem. Além disso, o arquivo externo só pode ser válido svge não permite scripts ou eventos dentro do svgelemento.
 
 < ion-icon  src = "/path/to/external/file.svg" > </ ion-icon >
 Variantes
