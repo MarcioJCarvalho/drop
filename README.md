@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://marciojcarvalho.github.io/">
-    <img src="https://uploaddeimagens.com.br/imagens/jcMbr2M" alt="Drop logo" width="200" height="165">
+    <img src="https://uploaddeimagens.com.br/imagens/jcMbr2M" alt="Drop logo" width="180" height="70">
   </a>
 </p>
 
