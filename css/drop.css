@@ -3,34 +3,70 @@
     src: url('/fonts/Source\ Sans\ Pro/SourceSansPro-Regular.ttf') format('truetype');
 }
 
-html{
-    font-size: 62.5%;
-}
-
-body{
-    font-size: 1.6rem;
+:root{
+    --fonte-principal: "Source Sans Pro", Arial, sans-serif;
 }
 
 html, 
 body{
-    font-family: "Source Sans Pro", Arial, sans-serif;
+    font-family: var(--fonte-principal);
 }
 
-header .navbar{
+header{
+    background: rgb(199, 199, 199);
+}
+
+.logo{
+    margin: 1rem;
+}
+.navbar{
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
     max-width: 980px;
     margin: auto;
+    height: 6.25rem;
 }
 
-header .navbar ul li{
+.navbar nav ul{
+    display: flex;
+}
+
+.navbar nav ul li{
     list-style: none;
+    margin: 1rem;
 }
 
-header .navbar ul li a{
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 2em;
+.navbar nav ul li a{
+    font-size: 1.6rem;
+}
+
+/* menu toggle */
+.one,
+.two,
+.three{
+    background-color: rgba(248, 248, 248, 0.616);
+    height: 5px;
+    width: 100%;
+    margin: 6px auto;
+}
+
+.menu-toggle{
+    width: 38px;
+    height: 30px;
+    margin-right: 20px;
+    display: none;
+}
+
+
+
+/* DEMONSTRAÇÃO */
+
+.alinhar-centro{
+    justify-content: center;
+}
+
+.alinhar-texto-centro{
+    text-align: center;
 }

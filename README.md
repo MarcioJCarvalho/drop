@@ -1,4 +1,28 @@
+<p align="center">
+  <a href="https://getbootstrap.com/">
+    <img src="https://getbootstrap.com/docs/5.1/assets/brand/bootstrap-logo-shadow.png" alt="Bootstrap logo" width="200" height="165">
+  </a>
+</p>
+
+<h3 align="center">Bootstrap</h3>
+
+<p align="center">
+  Sleek, intuitive, and powerful front-end framework for faster and easier web development.
+  <br>
+  <a href="https://getbootstrap.com/docs/5.1/"><strong>Explore Bootstrap docs »</strong></a>
+  <br>
+  <br>
+  <a href="https://github.com/twbs/bootstrap/issues/new?assignees=-&labels=bug&template=bug_report.yml">Report bug</a>
+  ·
+  <a href="https://github.com/twbs/bootstrap/issues/new?assignees=&labels=feature&template=feature_request.yml">Request feature</a>
+  ·
+  <a href="https://themes.getbootstrap.com/">Themes</a>
+  ·
+  <a href="https://blog.getbootstrap.com/">Blog</a>
+</p>
+
 # DROP!
+
 ## Unidades CSS
 Unidades de medidas do CSS<br>
 Layout Fixo<br>
@@ -21,7 +45,10 @@ rem - multiplicado pelo root
 
 
 
-
+## Fontes do sistema
+Como fontes usamos esse artigo 
+https://www.smashingmagazine.com/2015/11/using-system-ui-fonts-practical-guide/
+https://www.smashingmagazine.com/2009/09/complete-guide-to-css-font-stacks/
 
 ## Ícones personalizados
 Para usar um SVG personalizado, forneça seu URL no srcatributo para solicitar o arquivo SVG externo. O srcatributo funciona da mesma forma '<img src="...">'que o URL deve ser acessível a partir da página da Web que está fazendo uma solicitação para a imagem. Além disso, o arquivo externo só pode ser válido svge não permite scripts ou eventos dentro do svgelemento.

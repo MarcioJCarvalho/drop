@@ -1,0 +1,96 @@
+
+.matriz{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 980px;
+}
+
+.linha{
+    display: flex;
+    width: 100%;
+}
+
+.coluna-1{
+    width: 8.34%;
+
+    height: 50px;
+    background-color: rgb(132, 0, 255);
+}
+
+.coluna-2{
+    width: 16.67%;
+
+    height: 50px;
+    background-color: rgb(3, 202, 252);
+}
+
+.coluna-3{
+    width: 25%;
+
+    height: 50px;
+    background-color: rgb(0, 255, 179);
+}
+
+.coluna-4{
+    width: 33.34%;
+
+    height: 50px;
+    background-color: rgb(0, 255, 76);
+}
+
+.coluna-5{
+    width: 41.67%;
+
+    height: 50px;
+    background-color: rgb(81, 255, 0);
+}
+
+.coluna-6{
+    width: 50%;
+
+    height: 50px;
+    background-color: rgb(145, 255, 0);
+}
+
+.coluna-7{
+    width: 58.34%;
+
+    height: 50px;
+    background-color: rgb(255, 238, 0);
+}
+
+.coluna-8{
+    width: 66.67%;
+
+    height: 50px;
+    background-color: rgb(255, 217, 0);
+}
+
+.coluna-9{
+    width: 75%;
+
+    height: 50px;
+    background-color: rgb(255, 123, 0);
+}
+
+.coluna-10{
+    width: 83.34%;
+
+    height: 50px;
+    background-color: rgb(255, 72, 0);
+}
+
+.coluna-11{
+    width: 91.67%;
+
+    height: 50px;
+    background-color: rgb(255, 0, 43);
+}
+
+.coluna-12{
+    width: 100%;
+
+    height: 50px;
+    background-color: rgb(255, 0, 212);
+}
