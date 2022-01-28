@@ -7,7 +7,7 @@
 <h3 align="center">Drop!</h3>
 
 <p align="center">
-  Design Responsive of Pages.
+  Design responsive of pages.
   <br>
   <a href="https://getbootstrap.com/docs/5.1/"><strong>Explore Bootstrap docs »</strong></a>
   <br>
