@@ -1,13 +1,13 @@
 <p align="center">
   <a href="https://marciojcarvalho.github.io/">
-    <img src="https://uploaddeimagens.com.br/imagens/jcMbr2M" alt="Drop logo" width="200" height="165">
+    <img src="https://uploaddeimagens.com.br/images/003/660/885/full/Drop-logo.png?1643347717" alt="Drop logo" width="180" height="70">
   </a>
 </p>
 
-<h3 align="center">Bootstrap</h3>
+<h3 align="center">Drop!</h3>
 
 <p align="center">
-  Sleek, intuitive, and powerful front-end framework for faster and easier web development.
+  Design responsive of pages.
   <br>
   <a href="https://getbootstrap.com/docs/5.1/"><strong>Explore Bootstrap docs »</strong></a>
   <br>
