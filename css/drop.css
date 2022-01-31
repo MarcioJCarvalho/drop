@@ -36,6 +36,24 @@
     --cor-cinza: #eaeaea; /* lavender */
     --cor-prata: #c0c0cb; /* silver */ 
     --cor-preta: #333333; /* darkslateray */
+
+    --cor-corn: #fff275;
+    --cor-mango-tango: #ff8c42; 
+    --tard-orange: #ff3c38;
+    --cor-english-red: #a23e48;
+    --cor-shadow-blue: #6c8ead;
+    --cor-crayola: #cbe896;
+    --cor-cambridge: #aac0aa;
+    --cor-peach: #fcdfa6;
+    --cor-beaver: #a18276;
+    --cor-macarroni-chesse: #f4b886;
+    --cor-onyx: #393e41;
+    --cor-timberwolf: #d3d0cb;
+    --cor-maize-crayola: #e2c044;
+    --cor-ming: #587b7f;
+    --cor-dark-green: #1e2019;
+
+    --transparente: rgba(88, 88, 88, 0.01);
 }
 
 html, 
@@ -44,32 +62,35 @@ body{
 }
 
 header{
-    background: rgb(199, 199, 199);
+    width: 100%;
 }
 
 .logo{
     margin: 1rem;
 }
 .navbar{
+    margin: auto;
+    width: 100%;
+    background-color: var(--cor-cinza);
+}
+
+.itens-menu{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
-    max-width: 980px;
-    margin: auto;
     height: 6.25rem;
 }
 
-.navbar nav ul{
+.itens-menu nav ul{
     display: flex;
 }
 
-.navbar nav ul li{
+.itens-menu nav ul li{
     list-style: none;
     margin: 1rem;
 }
 
-.navbar nav ul li a{
+.itens-menu nav ul li a{
     font-size: 1.6rem;
 }
 
@@ -83,7 +104,7 @@ header{
     margin: 6px auto;
 }
 
-.menu-toggle{
+.botao-menu{
     width: 38px;
     height: 30px;
     margin-right: 20px;
@@ -239,3 +260,77 @@ header{
 .fundo-preto{
     background: var(--cor-preta);
 }
+
+/* botões */
+
+.botao{
+    padding: 8px 20px;
+    cursor: pointer;
+    border-style: none;
+}
+
+.botao:hover{
+    background-color: var(--transparente);
+}
+
+
+.borda-redonda{
+    border-radius: 50px;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.borda-suave{
+    border-radius: 5px;
+    border-width:2px;
+    border-style: solid;
+}
+
+.borda-amarela{
+    border-color: var(--cor-amarela);
+}
+
+.borda-vermelha{
+    border-color: var(--cor-vermelha);
+}
+
+.borda-laramja{
+    border-color: var(--cor-laranja);
+}
+
+.borda-azul{
+    border-color: var(--cor-azul);
+}
+
+.borda-verde{
+    border-color: var(--cor-verde);
+}
+
+.borda-roxa{
+    border-color: var(--cor-roxa);
+}
+
+.borda-rosa{
+    border-color: var(--cor-rosa);
+}
+
+.borda-marinho{
+    border-color: var(--cor-marinho);
+}
+
+.borda-bronca{
+    border-color: var(--cor-branca);
+}
+
+.borda-cinza{
+    border-color: var(--cor-cinza);
+}
+
+.borda-prata{
+    border-color: var(--cor-prata);
+}
+
+.borda-preta{
+    border-color: var(--cor-preta);
+}
+
