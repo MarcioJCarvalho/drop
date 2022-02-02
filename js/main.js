@@ -1,7 +1,7 @@
 const {body} = document
 
 try{
-    body.style.backgroundColor = lumiance('#27e', -0.2);// #2b77e4
+    body.style.backgroundColor = lumiance('#6232cc', -0.6);// #2b77e4
 }catch(e){
     console.log("HOUVE UM ERRO: ", e.message)
 }
@@ -15,16 +15,13 @@ function lumiance   (hex, luminosity = 0){
     // lógica para converter o hexadecimal em uma cor mais clara ou mais escura
     // aceitar valores do hex com 3 ou 6 digitos
     hex = hex.replace(/[^0-9a-f]/gi, '')
-    console.log(hex)
     const isValidHex = hex.length === 6 || hex.length === 3
     if(!isValidHex) throw new Error("Invallid HEX")
 
     // se for 3 digitos, transformar para 6
     if (hex.length === 3) {
-        hex = hex[0] + hex[0] + hex[1] + hex[1] + hex[2]
-        + hex[2]
+        hex = hex[0] + hex[0] + hex[1] + hex[1] + hex[2] + hex[2]
     }
-    console.log(hex)
     // aplicar a formula matemática para aumentar ou diminuir a luz
 
     // preciso transformar o hex em rgb
@@ -32,17 +29,20 @@ function lumiance   (hex, luminosity = 0){
     // 0 = bleck
     // 255 = white
     const twoDigitGroup = hex.match(/([0-9a-f]){2}/gi)
-    console.log(twoDigitGroup)
 
+    let newHex = "#"
     for (let twoDigit of twoDigitGroup) {
         const numberForHex = parseInt(twoDigit, 16)
         const calculateLuminosity = numberForHex + (luminosity * 255)
-        
-        const blackOrLuminosity = Math.max(0, calculateLuminosity)
-        const whiteOrLuminosity = Math.min(255, calculateLuminosity)
 
-        console.log(blackOrLuminosity)
-        console.log(whiteOrLuminosity)
+        const blackOrLuminosity = Math.max(0, calculateLuminosity)
+        const partialColor = Math.min(255, blackOrLuminosity)
+        const newColor = Math.round(partialColor)
+        const numberToHex = newColor.toString(16)
+        const finalHex = "0" + numberToHex
+        
+        newHex += finalHex.slice(-2)
     }
-    return hex
+    console.log(newHex)
+    return newHex
 }
