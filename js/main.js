@@ -1,7 +1,7 @@
 const {body} = document
 
 try{
-    body.style.backgroundColor = lumiance('#6232cc', -0.6);// #2b77e4
+    body.style.backgroundColor = lumiance('#2b77e4', 0.2);// #2b77e4
 }catch(e){
     console.log("HOUVE UM ERRO: ", e.message)
 }
